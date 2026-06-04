@@ -2,16 +2,20 @@
 __pycache__/
 *.py[cod]
 
+
 # Virtual environment
 venv/
 .venv/
 
+
 # Environment variables
 .env
+
 
 # Editor
 .vscode/
 .idea/
+
 
 # OS
 .DS_Store
