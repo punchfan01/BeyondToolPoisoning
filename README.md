@@ -10,7 +10,7 @@ The Model Context Protocol (MCP) has become the de facto standard for connecting
 
 We organize the malicious-server threat space by the role the host LLM plays in producing the harmful outcome.
 
-![figure1_mcp_architecture.png](figure1_mcp_architecture.png)
+![MCP Architecture](assets/figure1_mcp_architecture.png)
 
 | Category | Description | Defense Boundary |
 | --- | --- | --- |
@@ -30,9 +30,9 @@ We organize the malicious-server threat space by the role the host LLM plays in 
 
 ### Results
 
-![table2_llm_passive_results.png](table2_llm_passive_results.png)
+![LLM-Passive Results](assets/table2_llm_passive_results.png)
 
-![table3_llm_active_results.png](table3_llm_active_results.png)
+![LLM-Active Results](assets/table3_llm_active_results.png)
 
 ## Repository Structure
 
@@ -66,20 +66,4 @@ BeyondToolPoisoning/
 
 ## Setup
 
-See [docs/setup.md](https://claude.ai/chat/docs/setup.md) for detailed instructions on installation, environment configuration, and MCP host setup.
-
-## Citation
-
-```
-@article{park2026beyondtoolpoisoning,
-  title     = {Beyond Tool Poisoning: Attack Surfaces of Malicious Remote MCP Servers Across LLM Platforms},
-  author    = {Park, Jinwoo and Kim, Geonhee and Lee, Hyeokjae and Park, Jeman},
-  journal   = {Electronics},
-  volume    = {15},
-  number    = {10},
-  pages     = {2214},
-  year      = {2026},
-  publisher = {MDPI},
-  doi       = {10.3390/electronics15102214}
-}
-```
+See [docs/setup.md](docs/setup.md) for detailed instructions on installation, environment configuration, and MCP host setup.
