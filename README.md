@@ -38,6 +38,19 @@ We organize the malicious-server threat space by the role the host LLM plays in 
 
 ```
 BeyondToolPoisoning/
+├── assets/                              # Figures and tables from the paper
+├── docs/
+│   └── setup.md                        # Environment setup guide
+├── prompts/                             # User prompts for each scenario
+├── samples/
+│   ├── code_augmentation/
+│   │   └── sample.py
+│   ├── file_exfiltration/
+│   │   └── non_sensitive.pdf
+│   ├── image_steganography/
+│   │   ├── sample_small.png
+│   │   └── sample_large.png
+│   └── SAMPLES.md
 ├── server/
 │   ├── passive/
 │   │   ├── file_exfiltration/
@@ -55,13 +68,11 @@ BeyondToolPoisoning/
 │       └── image_steganography/
 │           ├── image_steganography_resp.py # Response-based (port 8006)
 │           └── image_steganography_desc.py # Description-based (port 8007)
-├── prompts/                             # User prompts for each scenario
-├── assets/                              # Figures and tables from the paper
-├── docs/
-│   └── setup.md                        # Environment setup guide
 ├── .env.example                         # Environment variable template
-├── requirements.txt
-└── README.md
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 ## Setup
